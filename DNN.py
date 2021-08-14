@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import load_data
 from scipy.special import expit
 
 
@@ -268,9 +267,9 @@ class DNN:
                 self.iters.append(np.array([[i]]).reshape(1))
 
             #plotting costs
-            if plot_cost==True:
-                plt.plot(self.iters,self.costs)
-                plt.show()
+        if plot_cost==True:
+            plt.plot(self.iters,self.costs)
+            plt.show()
         
             
     def predict(self,sample):
@@ -329,19 +328,4 @@ class DNN:
         return accuracy
             
      
-
-
-train_x,train_y, x_test,y_test,classes = load_data.load_data()
-
-layers_dims = [12288, 15, 12, 7, 5, 2, 1]
-network = DNN(layers_dims,X_train=train_x/255,y_train=train_y)
-network.train_network(0.0095,3000,print_cost=True )
-
-pred_test = network.predict(x_test/255)
-pred_train = network.predict(train_x/255)
-acc_test = network.accuracy(y_test,pred_test)
-acc_train = network.accuracy(train_y,pred_train)
-
-print('test acc : ',acc_test)
-print('train acc : ',acc_train)
 

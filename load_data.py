@@ -1,7 +1,5 @@
 import h5py
 import numpy as np
-import matplotlib.pyplot as plt
-
 
 # read the training set
 with h5py.File('datasets/train_catvnoncat.h5', "r") as hdf_t :
@@ -18,10 +16,9 @@ with h5py.File('datasets/test_catvnoncat.h5', "r") as hdf_test:
     test_x = np.array(hdf_test.get('test_set_x')[:])
     test_y = np.array(hdf_test.get('test_set_y')[:])
 
+def get_raw():
+    return train_x,train_y,test_x,test_y
 
-# transform the dataset
-#print(train_x[1][0])
-#print(train_y.shape)
 
 def load_data():
     #Transform training set
@@ -38,7 +35,3 @@ def load_data():
 
     return x_train,y_train,x_test,y_test,classes
 
-#x,y,g,f,g = load_data()
-#print(test_y)
-#plt.imshow(test_x[5])
-#plt.show()
