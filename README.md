@@ -30,6 +30,10 @@ propabilty \> 0.5 = 1 , and propabilty \< 0.5 = 0<br><br>
 In case of multi-class classification we use a [Softmax activation function](https://en.wikipedia.org/wiki/Softmax_function) in output layer<br>
 which isn't implemented here and i will implement later.<br>
 
+<p align='center'>
+<img src="Images/forward-prop-n.png" width="500" height="300"> 
+</p>
+
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
 * [neural network class](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/DNN.py)
