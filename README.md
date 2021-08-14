@@ -64,7 +64,7 @@ How to get the ***gradient*** of this function w.r.t ***w,b*** ? <br>
 
 we simply break down the equation into partial derivatives of loss w.r.t w,b<br>
 <p align='center'>
-<img src="Images/back-eq.png" width="500" height="200"> 
+<img src="Images/back-eq.PNG" width="500" height="100"> 
 </p>
 
 
