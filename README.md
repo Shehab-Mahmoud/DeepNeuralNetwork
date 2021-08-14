@@ -5,6 +5,7 @@ Python implementation of deep neural network  from scratch with a mathmatical ap
 1. Overview
 2. Intializing paramaters
 3. Forward propagation
+4. [Cost function](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#2cost-function)
 4. Backward propagation
 5. predict
 
