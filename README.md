@@ -80,7 +80,7 @@ w.r.t weights and biases
 Here is the vectorized implementation of back propagation:
 
 <p align='center'>
-<img src="Images/vec-back.png" width="200" height="400"> 
+<img src="Images/vec-back.png" width="300" height="400"> 
 </p>
 
 
