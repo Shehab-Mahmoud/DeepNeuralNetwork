@@ -36,6 +36,12 @@ which isn't implemented here and i will implement later.<br>
 <img src="Images/forward-prop-n.jpg" width="500" height="300"> 
 </p>
 
+Here is a vectorized implementation of forward propagation:<br>
+
+<p align='center'>
+<img src="Images/vec-forward.png" width="300" height="300"> 
+</p>
+
 ## 2.Cost Function:
 Since we are doing binary classification we use the logistic cost function
 
