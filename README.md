@@ -54,8 +54,12 @@ This is a very usefull [article](https://medium.com/@pdquant/all-the-backpropaga
 </p>
 
 The reason we use the chain rule maybe not be very obvious for some people so we can break it down this way: <br>
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+* let the cost function be L(a)
+* let the activation function be a = g(z)
+* let the weighted sum be z = z(w,b)
+So the loss is L(g(z(w,b)))<br>
+How to get the ***gradient*** of this function w.r.t ***w,b*** ? <br>
+> we can do this using the chain rule from calculus
 
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
