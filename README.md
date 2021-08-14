@@ -16,9 +16,9 @@ Forward propagation is mainly broken into two steps:
 2. activation:<br>
    &ensp;pluging z into the activation function sigmoid or relu ...<br>
     &ensp;A = g(z)<br><br>
-
-&ensp;&ensp;<img src="Images/forward-prop2.png" width="500" height="200"> 
-
+<p align='center'>
+<img src="Images/forward-prop2.png" width="500" height="200"> 
+</p>
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
 * [neural network class](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/DNN.py)
