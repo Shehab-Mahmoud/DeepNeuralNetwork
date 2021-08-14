@@ -63,7 +63,10 @@ How to get the ***gradient*** of this function w.r.t ***w,b*** ? <br>
 > we can do this using the chain rule from calculus
 
 we simply break down the equation into partial derivatives of loss w.r.t w,b<br>
-$e^{i \pi} = -1$
+<p align='center'>
+<img src="Images/back-eq.png" width="500" height="200"> 
+</p>
+
 
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
