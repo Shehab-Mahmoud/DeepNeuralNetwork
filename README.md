@@ -63,9 +63,19 @@ How to get the ***gradient*** of this function w.r.t ***w,b*** ? <br>
 > we can do this using the chain rule from calculus
 
 we simply break down the equation into partial derivatives of loss w.r.t w,b<br>
+
 <p align='center'>
 <img src="Images/back-eq.PNG" width="500" height="100"> 
 </p>
+
+### The steps to implementing back propagation :
+1. kick start back prop. by calculating the drivative of Loss w.r.t last layer activation
+2. since the last layer(output layer) is unique (has diffrent activation from other layers), calculate the derivative of the loss<br>
+w.r.t weights and biases
+> Here we use the sigmoid activation function so we use its derivative.
+
+3. loop over all of the rest of the layers calculating gradients and storing them.
+> Here we use the relu activation function so we use its derivative.
 
 
 ## Links :
