@@ -101,6 +101,12 @@ repeat using all data points:<br>
 3. implement back propagation.
 4. update paramters using gradients.
 
+### vectorized implementation of gradient descent
+
+<p align='center'>
+<img src="Images/algo.png" width="400" height="600"> 
+</p>
+
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
 * [neural network class](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/DNN.py)
