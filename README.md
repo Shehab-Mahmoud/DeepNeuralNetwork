@@ -90,10 +90,10 @@ Here is the vectorized implementation of back propagation:
 </p>
 
 ## 4.Training the network (gradient descent)
-Here we use the simplest optmization algorithm which is ***batch gradient descent***<br>
-repeat using all data points:
-    &ensp; * calculate gradient of w,b w.r.t Loss
-    &ensp; * update w,b<br>
+Here we use the simplest optmization algorithm which is ***batch gradient descent***.<br>
+repeat using all data points:<br>
+    &ensp; calculate gradient of w,b w.r.t Loss<br>
+    &ensp; update w,b<br>
 
 ### steps implementing gradient descent :
 1. implement forward propagation.
