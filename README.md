@@ -70,7 +70,7 @@ we simply break down the equation into partial derivatives of loss w.r.t w,b<br>
 
 ### The steps to implementing back propagation :
 1. kick start back prop. by calculating the drivative of Loss w.r.t last layer activation
-2. since the last layer(output layer) is unique (has diffrent activation from other layers), calculate the derivative of the loss<br>
+2. since the last layer(output layer) is unique (has diffrent activation from other layers), calculate the derivative of the loss
 w.r.t weights and biases
 > Here we use the sigmoid activation function so we use its derivative.
 
