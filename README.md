@@ -47,11 +47,14 @@ Since we are doing binary classification we use the logistic cost function
 Back propagation is the step that allows calculating gradients for gradient descent (training the neural network).<br>
 In back propagation we follow the reversed path of the neural network calculating gradients for weights and biases to update them
 during gradient descent (training).<br><br>
-This is a very usefull [link](https://medium.com/@pdquant/all-the-backpropagation-derivatives-d5275f727f60) explaining the math behind back propagation, essentialy we use the chain rule from calculas to calculate the derivative of loss w.r.t weights and biases.
+This is a very usefull [article](https://medium.com/@pdquant/all-the-backpropagation-derivatives-d5275f727f60) explaining the math behind back propagation, essentialy we use the chain rule from calculas to calculate the derivative of loss w.r.t weights and biases.
 
 <p align='center'>
 <img src="Images/back-prop.png" width="700" height="300"> 
 </p>
+
+The reason we use the chain rule maybe not be very obvious for some people so we can break it down this way: <br>
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
