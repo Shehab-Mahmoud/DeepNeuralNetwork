@@ -2,7 +2,7 @@
 Python implementation of deep neural network  from scratch with a mathmatical approach.
 
 ## Table of contents:
-1. Overview
+1. [Overview](##links)
 2. Intializing paramaters
 3. Forward propagation
 4. Backward propagation
