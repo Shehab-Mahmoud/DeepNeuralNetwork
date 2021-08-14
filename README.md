@@ -7,7 +7,7 @@ Python implementation of deep neural network  from scratch with a mathmatical ap
 ## Table of contents:
 1. [Intializing paramaters](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#1-intialize-paramaters)
 2. [Forward propagation](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#2forward-propagation)
-3. [Cost function](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#2cost-function)
+3. [Cost function](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#3cost-function)
 4. [Backward propagation](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#4back-propagation)
 5. [Training (gradient descent)](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#5training-the-network-gradient-descent)
 6. [notes](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#notes)
