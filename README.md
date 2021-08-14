@@ -16,9 +16,16 @@ Forward propagation is mainly broken into two steps:
 2. activation:<br>
    &ensp;pluging z into the activation function sigmoid or relu ...<br>
     &ensp;A = g(z)<br><br>
+
 <p align='center'>
 <img src="Images/forward-prop2.png" width="500" height="200"> 
 </p>
+
+For an L-layer model we commonly use the **relu** activation function for hidden layers neurons<br>
+and **sigmoid** activation function for output layer in case of binary classification<br><br>
+In case of multi-class classification we use a **Softmax** activation function<br>
+which isn't implemented here and i will implement later.<br>
+
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
 * [neural network class](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/DNN.py)
