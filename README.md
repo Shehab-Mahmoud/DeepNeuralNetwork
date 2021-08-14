@@ -56,7 +56,7 @@ This is a very usefull [article](https://medium.com/@pdquant/all-the-backpropaga
 The reason we use the chain rule maybe not be very obvious for some people so we can break it down this way: <br>
 * let the cost function be: **L(g)**
 * let the activation function be: **g = g(z)**
-* let the weighted sum be: **z = z(w,b)**
+* let the weighted sum be: **z = z(w,b)**<br>
 So the loss is **L(g(z(w,b)))**<br>
 How to get the ***gradient*** of this function w.r.t ***w,b*** ? <br>
 > we can do this using the chain rule from calculus
