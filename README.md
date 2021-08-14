@@ -31,7 +31,7 @@ In case of multi-class classification we use a [Softmax activation function](htt
 which isn't implemented here and i will implement later.<br>
 
 <p align='center'>
-<img src="Images/forward-prop-n.png" width="500" height="300"> 
+<img src="Images/forward-prop-n.jpg" width="500" height="300"> 
 </p>
 
 ## Links :
