@@ -3,6 +3,7 @@ Python implementation of deep neural network  from scratch with a mathmatical ap
 * [script containing the neural network class implementation](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/DNN.py)<br>
 * [script for reading the data the data and structring it](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)<br>
 * [dataset](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/tree/main/datasets)
+* [demo](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/Demo.ipynb)
 
 ## Table of contents:
 1. [Intializing paramaters](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#1-intialize-paramaters)
