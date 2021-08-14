@@ -34,6 +34,13 @@ which isn't implemented here and i will implement later.<br>
 <img src="Images/forward-prop-n.jpg" width="500" height="300"> 
 </p>
 
+## 2.Cost Function:
+Since we are doing binary classification we use the logistic cost function
+
+<p align='center'>
+<img src="Images/logistic-cost.png" width="500" height="200"> 
+</p>
+
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
 * [neural network class](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/DNN.py)
