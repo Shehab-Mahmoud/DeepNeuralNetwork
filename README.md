@@ -89,6 +89,17 @@ Here is the vectorized implementation of back propagation:
 <img src="Images/vec-back.png" width="300" height="400"> 
 </p>
 
+## 4.Training the network (gradient descent)
+Here we use the simplest optmization algorithm which is ***batch gradient descent***<br>
+repeat using all data points:
+    &ensp; * calculate gradient of w,b w.r.t Loss
+    &ensp; * update w,b<br>
+
+### steps implementing gradient descent :
+1. implement forward propagation.
+2. calculate cost - for debuging not really needed.
+3. implement back propagation.
+4. update paramters using gradients.
 
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
