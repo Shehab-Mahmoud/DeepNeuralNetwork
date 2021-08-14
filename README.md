@@ -77,6 +77,12 @@ w.r.t weights and biases
 3. loop over all of the rest of the layers calculating gradients and storing them.
 > Here we use the relu activation function so we use its derivative.
 
+Here is the vectorized implementation of back propagation:
+
+<p align='center'>
+<img src="Images/vec-back.png" width="200" height="400"> 
+</p>
+
 
 ## Links :
 * [loading data](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)
