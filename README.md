@@ -39,7 +39,7 @@ which isn't implemented here and i will implement later.<br>
 Here is a vectorized implementation of forward propagation:<br>
 
 <p align='center'>
-<img src="Images/vectorized-forward.png" width="300" height="300"> 
+<img src="Images/forward-vec.png" width="300" height="300"> 
 </p>
 
 ## 2.Cost Function:
