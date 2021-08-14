@@ -15,7 +15,7 @@ Forward propagation is mainly broken into two steps:
 
 2. activation:<br>
    &ensp;pluging z into the activation function sigmoid or relu ...<br>
-    &ensp;A = g(z)<br><br>
+    &ensp;A = g(z)<br>
 
 <p align='center'>
 <img src="Images/forward-prop2.png" width="500" height="200"> 
