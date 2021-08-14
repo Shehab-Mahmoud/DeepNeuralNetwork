@@ -1,16 +1,16 @@
 # Deep Neural Network
 Python implementation of deep neural network  from scratch with a mathmatical approach.<br>
-[script containing the neural network class implementation](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/DNN.py)<br>
-[script for reading the data the data and structring it](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)<br>
-[dataset](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/tree/main/datasets)
+* [script containing the neural network class implementation](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/DNN.py)<br>
+* [script for reading the data the data and structring it](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py)<br>
+* [dataset](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/tree/main/datasets)
 
 ## Table of contents:
-1. Intializing paramaters
-2. Forward propagation
+1. [Intializing paramaters](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#1-intialize-paramaters)
+2. [Forward propagation](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#2forward-propagation)
 3. [Cost function](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#2cost-function)
-4. Backward propagation
-5. Training (gradient descent)
-6. notes
+4. [Backward propagation](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#4back-propagation)
+5. [Training (gradient descent)](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#5training-the-network-gradient-descent)
+6. [notes](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#notes)
 
 ## 1. intialize paramaters
 Weight are intilaized with random values according to 'He intialization'.<br>
@@ -117,7 +117,7 @@ The model assumes the input features are in the shape of (nx,m)<br>
 where col is a training example containing n-features (n-features,m-samples)<br>
 
 <p align='center'>
-<img src="Images/shape.png" width="300" height="400"> 
+<img src="Images/shape.png" width="300" height="300"> 
 </p>
 
 so, if you want to try the model on your own dataset, you must provide training data with the same structure 
