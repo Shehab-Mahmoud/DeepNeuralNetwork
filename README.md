@@ -6,7 +6,8 @@ Python implementation of deep neural network  from scratch with a mathmatical ap
 2. Intializing paramaters
 3. Forward propagation
 4. [Cost function](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#2cost-function)
-4. Backward propagation
+5. Backward propagation
+6. Training (gradient descent)
 5. predict
 
 ## 1.Forward propagation :
@@ -40,6 +41,17 @@ Since we are doing binary classification we use the logistic cost function
 
 <p align='center'>
 <img src="Images/logistic-cost.png" width="700" height="200"> 
+</p>
+
+## 3.Back propagation
+Back propagation is the step that allows calculating gradients for gradient descent (training the neural network).<br>
+In back propagation we follow the reversed path of the neural network calculating gradients for weights and biases to update them<br>
+during gradient descent (training).<br><br>
+This is a very usefull [link](https://medium.com/@pdquant/all-the-backpropagation-derivatives-d5275f727f60) explaining the math behind back propagation, essentialy we use the chain rule from calculas to calculate the <br>
+derivative of loss w.r.t weights and biases.
+
+<p align='center'>
+<img src="Images/back-prop.png" width="700" height="300"> 
 </p>
 
 ## Links :
