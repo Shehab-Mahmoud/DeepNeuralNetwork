@@ -54,6 +54,7 @@ This is a very usefull [article](https://medium.com/@pdquant/all-the-backpropaga
 </p>
 
 The reason we use the chain rule maybe not be very obvious for some people so we can break it down this way: <br>
+
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 ## Links :
