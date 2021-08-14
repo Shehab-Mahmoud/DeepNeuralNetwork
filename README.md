@@ -21,13 +21,13 @@ Forward propagation is mainly broken into two steps:
 <img src="Images/forward-prop2.png" width="500" height="200"> 
 </p>
 
-For an L-layer model we commonly use the [relu](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) activation function for hidden layers neurons<br>
-and [sigmoid](https://en.wikipedia.org/wiki/Activation_function) activation function for output layer in case of binary classification<br>
+For an L-layer model we commonly use the [relu activation function](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) for hidden layers neurons<br>
+and [sigmoid activation function](https://en.wikipedia.org/wiki/Activation_function) for output layer in case of binary classification<br>
 as it maps values to propablties between 0 and 1<br>
 therefor: <br>
 propabilty \> 0.5 = 1 , and propabilty \< 0.5 = 0<br><br>
 
-In case of multi-class classification we use a [Softmax](https://en.wikipedia.org/wiki/Softmax_function) activation function in output<br>
+In case of multi-class classification we use a [Softmax activation function](https://en.wikipedia.org/wiki/Softmax_function) in output layer<br>
 which isn't implemented here and i will implement later.<br>
 
 ## Links :
