@@ -38,7 +38,7 @@ which isn't implemented here and i will implement later.<br>
 Since we are doing binary classification we use the logistic cost function
 
 <p align='center'>
-<img src="Images/logistic-cost.png" width="500" height="200"> 
+<img src="Images/logistic-cost.png" width="700" height="200"> 
 </p>
 
 ## Links :
