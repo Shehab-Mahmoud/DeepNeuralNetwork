@@ -14,8 +14,8 @@ Python implementation of deep neural network  from scratch with a mathmatical ap
 6. [notes](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork#notes)
 
 ## 1. intialize paramaters
-Weight are intilaized with random values according to 'He intialization'.<br>
-biases are intialized as zeros.
+1. Weight are intilaized with random values according to 'He intialization'.<br>
+2. biases are intialized as zeros.
 ## 2.Forward propagation
 Forward propagation is mainly broken into two steps:
 1. linear forward (weighted sum input):<br>
@@ -29,13 +29,13 @@ Forward propagation is mainly broken into two steps:
 <img src="Images/forward-prop2.png" width="500" height="200"> 
 </p>
 
-For an L-layer model we commonly use the [relu activation function](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) for hidden layers neurons<br>
+* For an L-layer model we commonly use the [relu activation function](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) for hidden layers neurons<br>
 and [sigmoid activation function](https://en.wikipedia.org/wiki/Activation_function) for output layer in case of binary classification<br>
 as it maps values to propablties between 0 and 1<br>
-therefor: <br>
+therefore: <br>
 propabilty \> 0.5 = 1 , and propabilty \< 0.5 = 0<br><br>
 
-In case of multi-class classification we use a [Softmax activation function](https://en.wikipedia.org/wiki/Softmax_function) in output layer<br>
+* In case of multi-class classification we use a [Softmax activation function](https://en.wikipedia.org/wiki/Softmax_function) in output layer<br>
 which isn't implemented here and i will implement later.<br>
 
 <p align='center'>
@@ -71,7 +71,7 @@ The reason we use the chain rule maybe not be very obvious for some people so we
 * let the weighted sum be: **z = z(w,b)**<br>
 
 So the loss is **L(g(z(w,b)))**<br>
-How to get the ***gradient*** of this function w.r.t ***w,b*** ? <br>
+Now ,how to get the ***gradient*** of this function w.r.t ***w,b*** ? <br>
 > we can do this using the chain rule from calculus
 
 we simply break down the equation into partial derivatives of loss w.r.t w,b<br>
@@ -97,9 +97,9 @@ Here is the vectorized implementation of back propagation:
 
 ## 5.Training the network (gradient descent)
 Here we use the simplest optmization algorithm which is ***batch gradient descent***.<br>
-repeat using all data points:<br>
-    &ensp; calculate gradient of w,b w.r.t Loss<br>
-    &ensp; update w,b<br>
+* repeat using all data points:<br>
+    &ensp; 1. calculate gradient of w,b w.r.t Loss<br>
+    &ensp; 2. update w,b<br>
 
 ### steps implementing gradient descent :
 1. implement forward propagation.
@@ -121,11 +121,11 @@ where col is a training example containing n-features (n-features,m-samples)<br>
 <img src="Images/shape.png" width="300" height="300"> 
 </p>
 
-so, if you want to try the model on your own dataset, you must provide training data with the same structure 
+* so, if you want to try the model on your own dataset, you must provide training data with the same structure 
 to avoid running into errors.<br><br>
-Also, it is better to normalize the training / testing features as neural netowrks tend to work the best with
+* Also, it is better to normalize the training / testing features as neural netowrks tend to work the best with
 normalized features to avoid exploding/vanshing weights or gradients<br><br>
-Any ways the class is ment for learning purpose as it doesnt implement any regularization techniques like dropout
+* Any ways the class is ment for learning purpose as it doesnt implement any regularization techniques like dropout
 regularization<br><br>
-So, it is better use the data provided [here](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py).<br><br>
-I'll soon add implementations for regularization and adam optmization with mini-batch /stocastic GD and will update the readme accordingly.<br><br>
+* So, it is generaly better to use the data provided [here](https://github.com/Shehab-Mahmoud/DeepNeuralNetwork/blob/main/load_data.py).<br><br>
+* I'll soon add implementations for regularization and adam optmization with mini-batch /stocastic GD and will update the readme accordingly.<br><br>
